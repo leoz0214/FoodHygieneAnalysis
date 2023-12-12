@@ -1,2 +1,6 @@
 todo
 **/__pycache__
+.vscode/
+FoodHygieneData/
+business_types.json
+local_authorities.json
