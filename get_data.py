@@ -6,30 +6,28 @@ import csv
 import datetime as dt
 import json
 import operator
-import pathlib
 import time
 from collections import namedtuple
 
 import requests as rq
 
+from constants import *
+
 
 API = "https://api.ratings.food.gov.uk"
 HEADERS = {"x-api-version": "2"}
 PAGE_SIZE = 5000
-FIELDS = (
-    "Name",
-    "Type ID",
-    "Rating",
-    "Hygiene",
-    "Cleanliness",
-    "Management",
-    "Inspection Date",
-    "Local Authority ID"
+FIELDS = tuple(map(lambda field: field.value, (
+        Field.NAME,
+        Field.TYPE_ID,
+        Field.RATING,
+        Field.HYGIENE,
+        Field.CLEANLINESS,
+        Field.MANAGEMENT,
+        Field.DATE,
+        Field.LOCAL_AUTHORITY_ID
+    ))
 )
-FOLDER = pathlib.Path(__file__).parent
-DATA_FOLDER = FOLDER / "FoodHygieneData"
-BUSINESS_TYPES_FILE = FOLDER / "business_types.json"
-LOCAL_AUTHORITIES_FILE = FOLDER / "local_authorities.json"
 # England, Northern Ireland and Wales. Omit Scotland (no scores).
 COUNTRY_IDS = (1, 2, 4)
 MAX_RETRIES = 3
