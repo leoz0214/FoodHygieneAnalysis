@@ -5,13 +5,13 @@ from the perspective of various statistical averages.
 from collections import Counter
 
 import __init__
-from constants import Field
+from constants import SUB_METRICS
 from utils import *
 
 
 def display_mean() -> None:
     """Display the raw mean values of Hygiene, Cleanliness and Management."""
-    for field in (Field.HYGIENE, Field.CLEANLINESS, Field.MANAGEMENT):
+    for field in SUB_METRICS:
         mean = DATA[field.value].mean()
         print(f"Mean {field.value}: {round(mean, 4)}")
 
@@ -25,7 +25,7 @@ def display_weighted_mean() -> None:
     Make larger scores weight more, since they get exponentially rarer.
     Furthermore, reduce a Management score of 30 to 25 for consistency.
     """
-    for field in (Field.HYGIENE, Field.CLEANLINESS, Field.MANAGEMENT):
+    for field in SUB_METRICS:
         weighted_mean = DATA[field.value].map(
             lambda score: 1.5 ** min(score, 25)).mean()
         print(f"Weighted Mean {field.value}: {round(weighted_mean, 4)}")
@@ -33,7 +33,7 @@ def display_weighted_mean() -> None:
 
 def display_counts() -> None:
     """Simply displays the number of instances of each score per metric."""
-    for field in (Field.HYGIENE, Field.CLEANLINESS, Field.MANAGEMENT):
+    for field in SUB_METRICS:
         print(f"Score Counts for {field.value}")
         counter = Counter(DATA[field.value])
         for score, count in sorted(counter.items()):

@@ -14,6 +14,9 @@ class Field(enum.Enum):
     LOCAL_AUTHORITY_ID = "Local Authority ID"
 
 
+SUB_METRICS = (Field.HYGIENE, Field.CLEANLINESS, Field.MANAGEMENT)
+
+
 FOLDER = pathlib.Path(__file__).parent
 DATA_FOLDER = FOLDER / "FoodHygieneData"
 BUSINESS_TYPES_FILE = FOLDER / "business_types.json"
