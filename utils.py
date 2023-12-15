@@ -15,7 +15,9 @@ DATA = pd.read_csv(DATA_FILE)
 
 
 with BUSINESS_TYPES_FILE.open("r", encoding="utf8") as f:
-    BUSINESS_TYPES = json.load(f)
+    BUSINESS_TYPES = dict(
+        map(lambda pair: (int(pair[0]), pair[1]), json.load(f).items()))
 
 with LOCAL_AUTHORITIES_FILE.open("r", encoding="utf8") as f:
-    LOCAL_AUTHORITIES = json.load(f)
+    LOCAL_AUTHORITIES = dict(
+        map(lambda pair: (int(pair[0]), pair[1]), json.load(f).items()))
