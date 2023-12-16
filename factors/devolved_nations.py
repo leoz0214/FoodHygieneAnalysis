@@ -4,8 +4,6 @@ businesses in England, Wales and Northern Ireland.
 """
 from collections import Counter
 
-import pandas as pd
-
 import __init__
 from constants import Field
 from utils import DATA, LOCAL_AUTHORITIES
@@ -26,23 +24,25 @@ WALES_LOCAL_AUTHORITIES = {
     "Powys", "Rhondda Cynon Taf", "Swansea", "Torfaen",
     "Vale of Glamorgan", "Wrexham"
 }
-ENGLAND_LOCAL_AUTHORITIES = (
-    set(LOCAL_AUTHORITIES.values()) - NI_LOCAL_AUTHORITIES -
-    WALES_LOCAL_AUTHORITIES)
 
 
-def filter_by_authorities(authorities: set[str]) -> pd.DataFrame:
-    """Filters records by local authorities."""
-    return DATA.loc[DATA.apply(
-        lambda record: LOCAL_AUTHORITIES[
-            record[Field.LOCAL_AUTHORITY_ID.value]] in authorities, axis=1)]
+def get_devolved_nation(local_authority_id: int) -> str:
+    """Returns a string based on the devolved nation."""
+    local_authority = LOCAL_AUTHORITIES[local_authority_id]
+    return (
+        "Northern Ireland" if local_authority in NI_LOCAL_AUTHORITIES
+        else "Wales" if local_authority in WALES_LOCAL_AUTHORITIES
+        else "England")
 
 
-ESTABLISHMENTS_BY_DEVOLVED_NATION = {
-    "England": filter_by_authorities(ENGLAND_LOCAL_AUTHORITIES),
-    "Wales": filter_by_authorities(WALES_LOCAL_AUTHORITIES),
-    "Northern Ireland": filter_by_authorities(NI_LOCAL_AUTHORITIES)
-}
+# Temporary column for grouping by devolved nation.
+DATA[Field.TEMP.value] = DATA[
+    Field.LOCAL_AUTHORITY_ID.value].apply(get_devolved_nation)
+ORDER = ("England", "Wales", "Northern Ireland")
+ESTABLISHMENTS_BY_DEVOLVED_NATION = dict(
+    sorted(map(tuple, DATA.groupby(Field.TEMP.value, axis=0)),
+        key=lambda pair: ORDER.index(pair[0])))
+DATA.drop(Field.TEMP.value, axis=1)
 
 
 def display_mean(field: Field) -> None:

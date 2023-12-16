@@ -12,6 +12,8 @@ class Field(enum.Enum):
     MANAGEMENT = "Management"
     DATE = "Inspection Date"
     LOCAL_AUTHORITY_ID = "Local Authority ID"
+    # Temporary field used for batch grouping.
+    TEMP = "temp"
 
 
 SUB_METRICS = (Field.HYGIENE, Field.CLEANLINESS, Field.MANAGEMENT)
