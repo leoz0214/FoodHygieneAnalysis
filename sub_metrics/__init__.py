@@ -2,7 +2,7 @@
 Investigating the 3 sub-metrics in detail:
 Hygiene, Cleanliness and Management.
 The lowest scoring metric is determined and any links
-between the scores for each metric is also searched for.
+between the scores for each metric are also searched for.
 
 Important Information:
 Hygiene: 0 - 25
