@@ -26,8 +26,8 @@ WALES_LOCAL_AUTHORITIES = {
 }
 
 
-def get_devolved_nation(local_authority_id: int) -> str:
-    """Returns a string based on the devolved nation."""
+def get_country(local_authority_id: int) -> str:
+    """Returns a string based on the country."""
     local_authority = LOCAL_AUTHORITIES[local_authority_id]
     return (
         "Northern Ireland" if local_authority in NI_LOCAL_AUTHORITIES
@@ -37,28 +37,28 @@ def get_devolved_nation(local_authority_id: int) -> str:
 
 # Temporary column for grouping by devolved nation.
 DATA[Field.TEMP.value] = DATA[
-    Field.LOCAL_AUTHORITY_ID.value].apply(get_devolved_nation)
+    Field.LOCAL_AUTHORITY_ID.value].apply(get_country)
 ORDER = ("England", "Wales", "Northern Ireland")
-ESTABLISHMENTS_BY_DEVOLVED_NATION = dict(
+ESTABLISHMENTS_BY_COUNTRY = dict(
     sorted(map(tuple, DATA.groupby(Field.TEMP.value, axis=0)),
         key=lambda pair: ORDER.index(pair[0])))
 DATA.drop(Field.TEMP.value, axis=1)
 
 
 def display_mean(field: Field) -> None:
-    """Displays the mean for each devolved nation for a given field."""
-    for devolved_nation, records in ESTABLISHMENTS_BY_DEVOLVED_NATION.items():
+    """Displays the mean for each country for a given field."""
+    for country, records in ESTABLISHMENTS_BY_COUNTRY.items():
         mean = records[field.value].mean()
-        print(f"Mean {field.value} in {devolved_nation}: {round(mean, 4)}")
+        print(f"Mean {field.value} in {country}: {round(mean, 4)}")
 
 
 def display_count(field: Field) -> None:
     """
     Displays the count and % breakdown of values
-    for each devolved nation for a given field.
+    for each country for a given field.
     """
-    for devolved_nation, records in ESTABLISHMENTS_BY_DEVOLVED_NATION.items():
-        print(f"{field.value} Counts for {devolved_nation}")
+    for country, records in ESTABLISHMENTS_BY_COUNTRY.items():
+        print(f"{field.value} Counts for {country}")
         counter = Counter(records[field.value])
         for value, count in sorted(counter.items()):
             print(
