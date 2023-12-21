@@ -30,8 +30,10 @@ For Management, the score ranges from 0 - 30, with the possible scores being: (0
 
 From all the records, the mean Hygiene, Cleanliness and Management scores were calculated, and the following averages were found, to two decimal places:
 
-Hygiene: 3.02
+**Hygiene: 3.02**
+
 Cleanliness: 3.82
+
 Management: 3.96
 
 This shows that on average, Hygiene is the best-scoring metric. Remmber that scores for Management can go slightly higher, up to 30, whereas Hygiene and Cleanliness only go up to 25. Therefore, Cleanliness and Management are roughly similar in standard, lower than Hygiene. It is important to note that average scores for all 3 metrics are still considered very good.
@@ -47,25 +49,27 @@ To score highly in Management, **documentation and records of safety procedures*
 Alongside averages, a further consideration is the frequency of scores for each sub-metric. The results are as follows:
 
 Score Counts for Hygiene
-**0: 237251 (50.69%)**
-5: 185612 (39.66%)
-10: 39020 (8.34%)
-15: 5504 (1.18%)
-20: 481 (0.1%)
-25: 133 (0.03%)
+- **0: 237251 (50.69%)**
+- 5: 185612 (39.66%)
+- 10: 39020 (8.34%)
+- 15: 5504 (1.18%)
+- 20: 481 (0.1%)
+- 25: 133 (0.03%)
+
 Score Counts for Cleanliness
-0: 184806 (39.49%)
-5: 218831 (46.76%)
-10: 55437 (11.85%)
-15: 7990 (1.71%)
-20: 753 (0.16%)
-25: 184 (0.04%)
+- 0: 184806 (39.49%)
+- 5: 218831 (46.76%)
+- 10: 55437 (11.85%)
+- 15: 7990 (1.71%)
+- 20: 753 (0.16%)
+- 25: 184 (0.04%)
+
 Score Counts for Management
-0: 186168 (39.78%)
-5: 207875 (44.42%)
-10: 66937 (14.3%)
-**20: 6626 (1.42%)**
-30: 395 (0.08%)
+- 0: 186168 (39.78%)
+- 5: 207875 (44.42%)
+- 10: 66937 (14.3%)
+- **20: 6626 (1.42%)**
+- 30: 395 (0.08%)
 
 Again, Hygiene is demonstrated to be the best performing aspect, with over half the businesses scoring perfectly. Cleanliness is lower performing than Hygiene, with less perfect scores but still somewhat few dangerously low scores.
 
@@ -78,7 +82,9 @@ Explanations can be seen in the Averages section of the report.
 The Pearson correlation for each pair of metrics has been computed. The correlations are, to three decimal places:
 
 Hygiene and Cleanliness: 0.545
+
 Hygiene and Management: 0.601
+
 Cleanliness and Management: 0.539
 
 Unsurprisingly, this shows that typically, as one metric is of a lower standard, so are the others. Hence, as one metric is of a higher standard, so are the others. This makes sense since a clean kitchen is often associated with good food handling since it shows that the business takes food safety seriously, which also correlates to robust food safety management. Nonetheless, the correlation is not very strong, so there are certainly cases where one or more aspect falls short.
@@ -86,7 +92,9 @@ Unsurprisingly, this shows that typically, as one metric is of a lower standard,
 A further analysis is the Pearson correlations for businesses that fail overall by attaining a Food Hygiene Rating of 2 or lower. The results to three decimal places are:
 
 Hygiene and Cleanliness: 0.037
+
 Hygiene and Management: 0.223
+
 Cleanliness and Management: -0.037
 
 Surprisingly, this demonstrates little to no correlation between the 3 metrics for low-rated businesses. The only slight correlation is between Hygiene and Management, where safer food handling may correspond to better food safety management.
