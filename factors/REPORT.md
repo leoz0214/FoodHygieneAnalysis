@@ -2,7 +2,7 @@
 
 ## Background
 
-The Food Hygiene Rating scheme operates in England, Wales and Northern Ireland. Many types of businesses must be inspected and given a score, ranging from restaurants to manufacturers to schools. The scheme was established in 2010, and inspections have occurred regularly since. And establishments are located in both more affluent and more deprived areas. Furthermore, people of various races and ethnicities own establishments, promoting various foreign cuisines we cherish on a regular basis.
+The Food Hygiene Rating scheme operates in England, Wales and Northern Ireland. Many types of food businesses must be inspected and given a score, ranging from restaurants to manufacturers to schools. The scheme was established in 2010, and inspections have occurred regularly since. And establishments are located in both more affluent and more deprived areas. Furthermore, people of various races and ethnicities own establishments, promoting various foreign cuisines we cherish on a regular basis.
 
 Due to these differences, a thorough analysis of factors and their links with food hygiene standards has been performed, with the following factors investigated to discover any insights in food hygiene variations:
 
@@ -19,7 +19,8 @@ Each factor will now be discussed and key findings will be stated.
 - Businesses in **Northern Ireland** have significantly higher average Food Hygiene Ratings compared to England and Wales.
 - **Schools/Universities**, **Farmers** and **Hospitals/Childcare** have the highest average Food Hygiene Ratings.
 - **Takeaways** have the lowest average Food Hygiene Ratings by far.
-- Businesses have slightly higher average Food Hygiene Ratings when inspected during colder months.
+- Businesses obtain slightly higher average Food Hygiene Ratings when inspected during **colder** months.
+- Deprived areas have significantly lower average Food Hygiene Ratings.
 
 ## Detailed Analysis
 
@@ -235,13 +236,13 @@ Firstly, the average Food Hygiene Ratings for each year since 2010 have been cal
 - 2014: 4.78
 - 2015: 4.80
 - 2016: 4.81
-- 2017: 4.83
+- **2017: 4.83**
 - 2018: 4.82
 - 2019: 4.80
 - 2020: 4.81
 - 2021: 4.80
 - 2022: 4.62
-- 2023: 4.49
+- **2023: 4.49**
 
 The data can be visualised with this graph.
 <img src="report_images/rating_by_inspection_year.png">
@@ -256,14 +257,14 @@ Next, the average Hygiene scores each year are as follows, to two decimal places
 - 2013: 2.48
 - 2014: 2.50
 - 2015: 2.34
-- 2016: 2.23
+- **2016: 2.23**
 - 2017: 2.23
 - 2018: 2.40
 - 2019: 2.39
 - 2020: 2.32
 - 2021: 2.25
 - 2022: 3.07
-- 2023: 3.57
+- **2023: 3.57**
 
 The following graph illustrates the data.
 <img src="report_images/hygiene_by_inspection_year.png">
@@ -283,9 +284,9 @@ Next, the average Cleanliness scores each year are as follows, to two decimal pl
 - 2018: 3.12
 - 2019: 3.18
 - 2020: 3.01
-- 2021: 2.88
+- **2021: 2.88**
 - 2022: 3.91
-- 2023: 4.45
+- **2023: 4.45**
 
 The following graph illustrates the data.
 <img src="report_images/cleanliness_by_inspection_year.png">
@@ -305,26 +306,26 @@ Finally, average Management scores each year are as follows, to two decimal plac
 - 2018: 3.31
 - 2019: 3.33
 - 2020: 3.26
-- 2021: 3.15
+- **2021: 3.15**
 - 2022: 3.97
-- 2023: 4.52
+- **2023: 4.52**
 
 The following graph illustrates the data:
 <img src="report_images/management_by_inspection_year.png">
 
-Between 2010 and 2021, Management standards have noticeably improved steadily, levelling off by around 2016. This corresponds to a 0.85 points decrease between 2010 (4.00 points) and 2021 (3.15 points). But unsurprisngly, standards decrese again in 2022, and even more in 2023, with an average of 4.52 points in Management in 2023, 1.37 points higher than in 2021.
+Between 2010 and 2021, Management standards have noticeably improved steadily, levelling off by around 2016. This corresponds to a 0.85 points decrease between 2010 (4.00 points) and 2021 (3.15 points). But unsurprisngly, standards decrease again in 2022, and even more in 2023, with an average of 4.52 points in Management in 2023, 1.37 points higher than in 2021.
 
-Firstly, it is important to know that general food safety standards have probably not simply decreased since 2022 just because of the data. There is a much more realistic explanation for the seemingly decreased standards since 2022.
+Firstly, it is important to know that general food safety standards have probably not simply decreased since 2022 solely based on the data. There is a much more realistic explanation for the seemingly decreased standards since 2022.
 
-Food businesses are not inspected at fixed intervals, meaning different types of establishments are inspected at different frequencies. This means higher risk businesses, such as those which specialise in meat, are inspected much more frequently than lower risk businesses where the risk to public health is much lower. The highest risk businesses are inspected every 6 months whereas low risk businesses may go years without being inspected. Restaurants, takeaways and retailers make up most of the businesses and are generally viewed as medium risk, often inspected yearly. Businesses with poor past food safety may also be marked as high risk and inspected more often. Since the data operates on the last inspection of businesses, logically, many of the more recent inspections are for higher risk businesses whereas a few very low risk businesses have not been inspected since 2010. And higher risk businesses usually score more poorly on average due to either more complex/strict food safety requirements or the fact that businesses with a poor food safety record are on average more likely to score worse again. Overall, the most recent inspections consist of many high risk businesses, leaving mostly low risk businesses last inspected before 2022.
+Food businesses are not inspected at fixed intervals, meaning different types of establishments are inspected at different frequencies. This means **higher risk businesses**, such as those which specialise in meat, are inspected much **more frequently** than lower risk businesses where the risk to public health is much lower. The highest risk businesses are inspected every **6 months** whereas low risk businesses may go years without being inspected. Restaurants, takeaways and retailers make up most of the businesses and are generally viewed as medium risk, often inspected yearly. Businesses with **poor past food safety** may also be marked as high risk and inspected more often. Since the data operates on the last inspection of businesses, logically, many of the more recent inspections are for higher risk businesses whereas a few very low risk businesses have not been inspected since 2010. And higher risk businesses usually score more poorly on average due to either **more complex/stringent** food safety requirements or the fact that businesses with a poor food safety record are on average more likely to score worse again. Overall, the most recent inspections consist of many high risk businesses, leaving mostly low risk businesses last inspected before 2022.
 
-The world was faced with the COVID-19 pandemic in 2020/2021. Naturally, once food businesses were able to open again after lockdown, there was extreme emphasis on food safety to protect consumers from the virus. General food safety awareness increased. Hygienic food handling, extreme cleanliness and stringent management were all required as part of reopening during the pandemic, so naturally, food safety standards increased. But this was likely counteracted with increased expectations during inspections given the context. Thus, Hygiene, Cleanliness and Management were all slightly better in 2020, and especially 2021, than in 2019.
+The world was faced with the **COVID-19** pandemic in 2020/2021. Naturally, once food businesses were able to open again after lockdown, there was extreme emphasis on food safety to protect consumers from the virus. General **food safety awareness** increased. Hygienic food handling, extreme cleanliness and stringent management were all required as part of reopening during the pandemic, so naturally, food safety standards increased. But this was likely counteracted with increased expectations during inspections given the context. Thus, Hygiene, Cleanliness and Management were all slightly better in 2020, and especially 2021, than in 2019.
 
 Apart from analysis by year, analysis for inspections by the month of the inspection (January to December) has also been conducted to see if scores vary depending on the time of year.
 
 The average Food Hygiene Ratings by month of inspection have been calculated. These values are as follows, to two decimal places, highest to lowest:
 
-1. November: 4.69
+1. **November: 4.69**
 2. April: 4.68
 3. December: 4.67
 4. January: 4.66
@@ -335,16 +336,16 @@ The average Food Hygiene Ratings by month of inspection have been calculated. Th
 9. July: 4.60
 10. September: 4.58
 11. October: 4.58
-12. August: 4.56
+12. **August: 4.56**
 
 The following graph illustrates this data.
 <img src="report_images/rating_by_inspection_month.png">
 
-Here, businesses obtain the highest average Food Hygiene Score in November, followed closely by April and the winter months. Conversely, businesses score the lowest in August on average, followed by September, October and the summer months. This suggests that typically, businesses score slightly better during the colder months and worse during the warmer months. The difference between average ratings in November and August is a significant 0.13 points.
+Here, businesses obtain the highest average Food Hygiene Score in November, followed closely by April and the winter months. Conversely, businesses score the lowest in August on average, followed by September, October and the summer months. This suggests that typically, businesses score slightly better during the colder months and worse during the warmer months. The difference between average ratings in November and August is 0.13 points.
 
 Next, the average Hygiene scores by month have been calculated as follows, to two decimal places from best to worst:
 
-1. November: 2.81
+1. **November: 2.81**
 2. April: 2.84
 3. December: 2.85
 4. February: 2.87
@@ -355,7 +356,7 @@ Next, the average Hygiene scores by month have been calculated as follows, to tw
 9. July: 3.14
 10. September: 3.18
 11. October: 3.20
-12. August: 3.31
+12. **August: 3.31**
 
 The following graph illustrates this data.
 <img src="report_images/hygiene_by_inspection_month.png">
@@ -364,7 +365,7 @@ The order is remarkably similar to that of average overall rating, with November
 
 In addition, here are the average Cleanliness scores by month, to two decimal places from best to worst:
 
-1. November: 3.61
+1. **November: 3.61**
 2. April: 3.62
 3. February: 3.69
 4. December: 3.70
@@ -375,7 +376,7 @@ In addition, here are the average Cleanliness scores by month, to two decimal pl
 9. July: 3.92
 10. September: 3.97
 11. October: 4.01
-12. August: 4.08
+12. **August: 4.08**
 
 The following graph illustrates this data:
 <img src="report_images/cleanliness_by_inspection_month.png">
@@ -384,7 +385,7 @@ Once again, November and August result in the highest and lowest average Cleanli
 
 Finally, the mean Management scores by month are as follows, to two decimal places:
 
-1. November: 3.70
+1. **November: 3.70**
 2. April: 3.77
 3. January: 3.80
 4. February: 3.81
@@ -395,15 +396,144 @@ Finally, the mean Management scores by month are as follows, to two decimal plac
 9. July: 4.06
 10. September: 4.14
 11. October: 4.19
-12. August: 4.27
+12. **August: 4.27**
 
 The following graph illustrates the data.
 <img src="report_images/management_by_inspection_month.png">
 
 Unsurprisingly, November and August yet again result in the highest and lowest average Management scores respectively, an overall difference of 0.57 points.
 
-Based on all the data, one can deduce that food safety levels are slightly higher during the colder/winter months in all 3 aspects: Hygiene, Cleanliness and Management. Better standards in all aspects will now be interpreted.
+Based on all the data, one can deduce that food safety levels are slightly higher during the **colder/winter months** in all 3 aspects: Hygiene, Cleanliness and Management. The better standards in all aspects will now be interpreted.
 
-During warmer months/summer, food is at higher risk of being too warm causing bacteria to grow and multiply more rapidly. This results in a higher risk of food poisoning which of course is very dangerous. Businesses must take this aspect of food safety extra seriously in summer, due to improper storage of perishable food being partiuclarly dangerous, and so, on average, businesses score lower in terms of Hygiene during warmer months.
+During warmer months/summer, food is at higher risk of being too warm causing **bacteria** to grow and multiply more rapidly. This results in a higher risk of **food poisoning** which of course is very dangerous. Businesses must take this aspect of food safety extra seriously in summer, due to improper storage of perishable food being particularly dangerous, and so, on average, businesses score lower in terms of Hygiene during warmer months.
 
-Cleanliness variations by season are more difficult to explain, since pests are active all the time but different months involve different pests. A possible reason for lower Cleanliness/Management in summer, especially August, is that staff take time off to go on holiday and take a break. If this is not done correctly, the kitchen cleanliness may decrease during this time provided nobody continues work to maintain cleanliness good standards, and a gap in management checks may also occur at around this time. The slightly higher levels of kitchen neglect during the summer may explain why businesses score slightly worse when inspected during this season, especially in August.
+Cleanliness variations by season are more difficult to explain, since pests are active year-round but different months involve different pests. A possible reason for lower Cleanliness/Management in summer, especially August, is that staff take time off to go on **holidays** and simply take a break. If this is not done correctly, the kitchen cleanliness may decrease during this time provided nobody continues work to maintain good cleanliness standards, and a gap in management checks may also occur at around this time. The slightly higher levels of kitchen neglect during the summer may explain why businesses score slightly worse when inspected during this season, especially in August.
+
+### Deprivation
+
+Wealth in the UK is not evenly distributed, with both very affluent and very deprived areas scattered nationwide, and the entire spectrum of affluence/deprivation levels in between. But of course, establishments exist everywhere, in rich and poor areas. A sample of affluent, average and deprived areas have been selected for analysis to determine any effects of deprivation on food safety standards.
+
+For each category, 8 local authorities have been carefully chosen, with 6 in England, 1 in Northern Ireland and 1 in Wales.
+The selected local authorities are as follows:
+
+Deprived
+- Blackpool
+- Oldham
+- Knowsley
+- Tower Hamlets
+- Newham
+- Middlesbrough
+- Derry City and Strabane
+- Blaenau Gwent
+
+Middle Class
+- Shropshire
+- Herefordshire
+- Breckland
+- Dorset
+- Wandsworth
+- Bedford
+- Mid Ulster
+- Ceredigion
+
+Affluent
+- Surrey Heath
+- Mid Sussex
+- Kensington and Chelsea
+- Buckinghamshire
+- Windsor and Maidenhead
+- Wokingham
+- Antrim and Newtownabbey
+- Monmouthshire
+
+And so, the mean Food Hygiene Ratings by deprivation level have been calculated, with the results to two decimal places as follows:
+
+Deprived: 4.46
+
+Middle Class: 4.74
+
+Affluent: 4.73
+
+The sample of deprived areas have significantly lower average Food Hygiene Ratings than the middle class and affluent areas. The sample of middle class areas score 0.01 points higher on average than the affluent areas, but this is negligible of course, and suggests that generally, food safety plateaus to a very high standard for areas that are not deprived. Nonetheless, the average rating in deprived areas is not alarmingly low and most businesses still achieve high scores despite possible disadvantages.
+
+Additionally, the mean Hygiene scores by deprivation level have also been computed. The results are as follows, to two decimal places:
+
+Deprived: 3.17
+
+Middle Class: 2.67
+
+Affluent: 2.59
+
+Unsurprisingly, the deprived areas have slightly lower Hygiene standards on average compared to their middle class and affluent counterparts. Also, the affluent areas appear to have marginally better hygiene standards than middle class areas, but the main insight is the 0.58 points difference in average hygiene scores between the deprived and affluent areas.
+
+Furthermore, the average Cleanliness scores by deprivation level are as follows, to two decimal places:
+
+Deprived: 4.45
+
+Middle Class: 3.54
+
+Affluent: 3.36
+
+This time, the deprived areas have significantly lower Cleanliness standards than the other areas, with the affluent areas also being slightly cleaner compared to the middle class areas. The difference in average cleanliness scores between the deprived and affluent areas is a whopping 1.09 points.
+
+Finally, the average Management scores by deprivation level are as follows, to two decimal places:
+
+Deprived: 4.62
+
+Middle Class: 3.65
+
+Affluent: 3.34
+
+There is a huge disparity in average Management standards between the deprived and affluent areas, alongside a noticeable difference between middle class and affluent areas in terms of management. A huge 1.28 points separates the deprived and affluent areas in terms of management scores.
+
+Further insights can be discovered by considering the rating counts for each deprivation level, including the pass/failure rate. The number of businesses achieving each rating for each sample are as follows:
+
+Deprived
+- 0: 36 (0.3%)
+- 1: 296 (2.48%)
+- 2: 292 (2.44%)
+- 3: 1006 (8.42%)
+- 4: 2178 (18.23%)
+- 5: 8142 (68.13%)
+
+Middle Class
+- 0: 7 (0.05%)
+- 1: 107 (0.71%)
+- 2: 128 (0.85%)
+- 3: 617 (4.11%)
+- 4: 1795 (11.94%)
+- 5: 12375 (82.34%)
+
+Affluent:
+- 0: 4 (0.03%)
+- 1: 61 (0.51%)
+- 2: 122 (1.03%)
+- 3: 565 (4.76%)
+- 4: 1464 (12.33%)
+- 5: 9658 (81.34%)
+
+From the statistics, clearly, a lot more businesses score poorly in the deprived areas compared to the middle class and affluent ones.
+
+Additionally, the pass rates by deprivation level are as follows:
+
+Deprived: 94.78%
+
+Middle Class: 98.39%
+
+Affluent: 98.43%
+
+This reveals that businesses in the deprived areas are over 3 times more likely to fail than in the other areas, solidifying the idea that deprived areas indeed have greater food safety issues than other areas.
+
+Unfortuanately, deprived areas in general have lower health and safety standards, hence there are various reasons for the lower food hygiene scores in deprived areas.
+
+Firstly, businesses in deprived areas are much more likely to suffer from finanical issues and very tight budgets. The limited funds may make hygiene improvements, structural repairs, pest control and safe food management unaffordable, obviously leading to lower food safety standards since attaining and maintaining excellent food safety requires investment in safety measures, something many businesses aspire to achieve but simply cannot afford it due to other aspects of the business needing the money.
+
+Due to education deprivation, staff in deprived areas are more likely to be underqualified and may be unaware or neglective of proper food handling, cleanliness and management standards, contributing to low ratings.
+
+Another possible reason for lower food safety standards in deprived areas is the desperation for money of the local residents. Employment deprivation is a major problem, and so, people in deprived areas may start their own food businesses, especially takeaways, as an income stream. Many of these people may have limited understanding of running a food business and are more likely to neglect adequate food safety as a result, instead focusing on serving customers for the money whilst cutting corners to save money.
+
+Crime is also more common in deprived areas, and this can include damage to businesses such as robbery. A robbery may lead to a loss of funds, subsequently causing possible food safety issues as already discussed. If the food safety documentation or records are stolen, this could be catastrophic since a lack of paperwork virtually guarantees failure. Many food establishments are actually for money laundering, so these ingenuine businesses are very likely to neglect food safety. Since crime deprivation corresponds to more money laundering businesses, this reduces average food safety scores.
+
+Finally, deprived areas often have poorer quality buildings. As seen, establishments in deprived areas are more likely to have lower cleanliness/structural standards. From cramped kitchens to ventilation issues to damaged floors, walls and ceilings, all the way to mould and pests, these issues will devastate cleanliness and result in low cleanliness scores and thus, lower overall scores. And naturally, these problems are more likely to occur in deprived areas due to the poor structural quality of buildings.
+
+Despite the fact that deprivation is linked to worse food safety, Northern Ireland as a whole is a somewhat deprived major region of the UK, considered by many as the most deprived, but despite this, from a previous section, NI was shown to have the highest average ratings compared to England and Wales. It is unclear regarding why this is the case, but there must be an underlying deeper reason.
