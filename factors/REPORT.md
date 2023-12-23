@@ -4,23 +4,24 @@
 
 The Food Hygiene Rating scheme operates in England, Wales and Northern Ireland. Many types of food businesses must be inspected and given a score, ranging from restaurants to manufacturers to schools. The scheme was established in 2010, and inspections have occurred regularly since. And establishments are located in both more affluent and more deprived areas. Furthermore, people of various races and ethnicities own establishments, promoting various foreign cuisines we cherish on a regular basis.
 
-Due to these differences, a thorough analysis of factors and their links with food hygiene standards has been performed, with the following factors investigated to discover any insights in food hygiene variations:
+Due to these differences, a thorough analysis of factors and their links with food safety standards has been performed, with the following factors investigated to discover any insights in food safety variations:
 
 - **Country** (England/Wales/Northern Ireland)
 - **Business Type** (Restaurants, Takeaways, Schools etc.)
 - **Inspection Date** (2010 - present, January - December)
 - **Deprivation** (Affluent/Average/Deprived)
-- **Race** (White/Black/Asian) [note - this goes by London boroughs with large populations of certain races, since the race of business owners cannot be determined/assumed]
+- **Race/Ethnicity** (White/Black/Asian) [note - this goes by London boroughs with large proportions of the population of certain races/ethncities, since the race/ethncity of business owners cannot easily be determined/assumed]
 
-Each factor will now be discussed and key findings will be stated.
+Each factor will now be analysed in detail and key findings will be stated.
 
 ## Key Findings
 
-- Businesses in **Northern Ireland** have significantly higher average Food Hygiene Ratings compared to England and Wales.
+- Businesses in **Northern Ireland** have significantly higher average Food Hygiene Ratings compared to in England and Wales.
 - **Schools/Universities**, **Farmers** and **Hospitals/Childcare** have the highest average Food Hygiene Ratings.
 - **Takeaways** have the lowest average Food Hygiene Ratings by far.
 - Businesses obtain slightly higher average Food Hygiene Ratings when inspected during **colder** months.
-- Deprived areas have significantly lower average Food Hygiene Ratings.
+- **Deprived** areas have significantly lower average Food Hygiene Ratings.
+- **Foreign-owned** businesses likely have lower average Food Hygiene Ratings.
 
 ## Detailed Analysis
 
@@ -44,7 +45,7 @@ Wales: 2.94
 
 **Northern Ireland: 2.24**
 
-Again, Northern Ireland performs by far the best in terms of Hygiene, in line with the general Rating trend. The Hygiene standards in Wales are slightly higher than in England, possibly indicating that businesses in Wales take hygienic food handling slightly more seriously than in England, although overall the difference is negligible. Despite all this, Hygiene standards are still very good on average for all 3 countries.
+Again, Northern Ireland performs by far the best in terms of Hygiene, in line with the general Rating trend. The Hygiene standards in Wales are slightly higher than in England, possibly indicating that businesses in Wales take hygienic food handling slightly more seriously than in England, although the difference is negligible. Despite all this, Hygiene standards are still very good on average in all 3 countries.
 
 The mean Cleanliness scores for the 3 countries are, to two decimal places:
 
@@ -64,7 +65,7 @@ Wales: 3.89
 
 **Northern Ireland: 3.38**
 
-Unsurprisingly, Northern Ireland has the best average Management of food safety, continuing to support the general trend. England and Wales have similar, slightly lower standards, but still good standards nonetheless.
+Unsurprisingly, Northern Ireland has the best average Management of food safety, continuing to support the general trend. England and Wales have similar, slightly lower but nonetheless good standards.
 
 To support the insights further, rating counts have also been computed and the results are as follows:
 
@@ -76,7 +77,7 @@ England
 - 4: 60773 (14.37%)
 - 5: 323855 (76.6%)
 
-Rating Counts for Wales
+Wales
 - 0: 42 (0.14%)
 - 1: 498 (1.66%)
 - 2: 407 (1.36%)
@@ -84,7 +85,7 @@ Rating Counts for Wales
 - 4: 5159 (17.24%)
 - 5: 21835 (72.95%)
 
-Rating Counts for Northern Ireland
+Northern Ireland
 - **0: 1 (0.01%)**
 - 1: 75 (0.49%)
 - 2: 109 (0.71%)
@@ -106,9 +107,9 @@ Furthermore, only 1 zero rating has been recorded in Northern Ireland, compared 
 
 One unlikely cause could be that for whatever reason, the inspectors in Northern Ireland are the most lenient, resulting in higher ratings. This however would be very unfair, so this is not a reasonable explanation.
 
-Higher ratings in Northern Ireland are more realisically linked to **mandatory display**. Since 7th October 2016, food safety law enforces that all establishments in Northern Ireland are **legally obliged to display their Food Hygiene Rating sticker in a prominent place**, such as the entrance. This serves as a major motivator for high food hygiene standards, since a low rating would need to be displayed, deterring many potential customers and thus, causing a very negative effect on profit for such businesses. The higher the rating, the more confidence consumers have in the safety of a particular establishment, so this makes mandatory display a reasonable explanation for the higher ratings in NI.
+Higher ratings in Northern Ireland are more realisically linked to **mandatory display**. Since 7th October 2016, food safety law enforces that all establishments in Northern Ireland are **legally obliged to display their Food Hygiene Rating sticker in a prominent place**, such as the entrance. This serves as a major motivator for high food safety standards, since a low rating would still need to be displayed, deterring many potential customers and thus, causing a very negative effect on profit for such businesses. The higher the rating, the more confidence consumers have in the safety of a particular establishment, so this makes mandatory display a reasonable explanation for the higher ratings in NI.
 
-However, there is an **inconsistency** with this explanation, since Wales also has mandatory display, starting even earlier than Northern Ireland, in 2013. This leaves England as the only country without mandatory display (only encouraged display), so one would think that Wales also has higher food hygiene ratings than England. Instead, Wales has a lower average rating than England, contradicting the higher ratings in NI. There must be another underlying reason leading to the lower ratings in Wales, which cannot easily be determined. And equally likely are other reasons for the higher ratings in NI.
+However, there is an **inconsistency** with this explanation, since **Wales** also has mandatory display, starting even earlier than Northern Ireland, in 2013. This leaves England as the only country without mandatory display (only encouraged display), so one would think that Wales also has higher food hygiene ratings than England. Instead, Wales has a lower average rating than England, contradicting the higher ratings in NI. There must be another underlying reason leading to the lower ratings in Wales, which cannot easily be determined. And there likely also other reasons for the higher ratings in NI.
 
 ### Business Type
 
@@ -166,7 +167,7 @@ Next, here are the average Hygiene scores by business type, rounded to two decim
 The graph illustrates this data.
 <img src="report_images/hygiene_by_business_type.png">
 
-Hygiene standards vary a lot by business type. **Farmers** do the best in terms of Hygiene, followed by various other supplier-based businesses. Other than suppliers, Schools/Universities do well too, ranking third. Again, following the Rating trend, **Takeaways** have significantly worse average Hygiene scores, 1.15 points greater than the next worst, Restaurants/Cafes/Canteens.
+Hygiene standards vary a lot by business type. **Farmers** do the best in terms of Hygiene, followed by various other supplier-based businesses. Other than suppliers, Schools/Universities do well too, ranking third. Again, following the Rating trend, **Takeaways** have by far the worst average Hygiene scores, 1.15 points greater than the next worst, Restaurants/Cafes/Canteens.
 
 Next, here are the average Cleanliness scores by business type, rounded to two decimal places, from best to worst:
 
@@ -186,7 +187,7 @@ Next, here are the average Cleanliness scores by business type, rounded to two d
 The graph illustrates this data.
 <img src="report_images/cleanliness_by_business_type.png">
 
-Cleanliness standards certainly vary across different business types. **Farmers** have the best cleanliness scores, followed closely by Importers/Exporters. Mobile Caterers do well in terms of cleanliness too. Unfortunately, **Takeaways** again appear to be the least clean on average by far, 0.95 points greater than the next worst, Pubs/Bars.
+Cleanliness standards certainly vary across different business types. **Farmers** have the best Cleanliness scores, followed closely by Importers/Exporters. Mobile Caterers do well in terms of Cleanliness too. Unfortunately, **Takeaways** again appear to be the least clean on average by far, 0.95 points greater than the next worst, Pubs/Bars.
 
 Finally, the average Management scores by business type are as follows, to two decimal places:
 
@@ -206,7 +207,7 @@ Finally, the average Management scores by business type are as follows, to two d
 The graph illustrates this data.
 <img src="report_images/management_by_business_type.png">
 
-There is a huge disparity in Management standards across different business types. On one hand, **Schools/Universities** have by far the highest Management standard 0.30 points less than the next best, Farmers. Conversely, **Takeaways** score 5.65 points in Management on average, a whopping 1.24 points greater than the second worst, Restaurants/Cafes/Canteens.
+There is a huge disparity in Management standards across different business types. On one hand, **Schools/Universities** have by far the highest Management standard, 0.30 points less than the next best, Farmers. Conversely, **Takeaways** score 5.65 points in Management on average, a whopping 1.24 points greater than the second worst, Restaurants/Cafes/Canteens.
 
 Based on these statistics, the business types that stand out most are as follows:
 
@@ -217,9 +218,9 @@ Based on these statistics, the business types that stand out most are as follows
 
 **School/Universities**, as already seen, have the highest average Food Hygiene Ratings, scoring very well on average in terms of Hygiene, Cleanliness and Management. This is because the **health and safety of children and staff** is taken extremely seriously, particularly since children have **less developed immune systems** and are more prone to allergies. Food contamination may lead to food poisoning or allergic reactions, which may be life-threatening, and will result in **lost education** for students or teaching time for teachers, something which has negative future consequences. Hence, very good Hygiene scores are attained. Cleanliness standards are naturally very high in school kitchens as part of the stringent food safety standards. Since **allergic reaction prevention** is one the most important policies in schools, school canteen staff are extremely well trained in food safety practices ensuring unsafe food is avoided by those with allergies, hence resulting in very good Management scores.
 
-Likewise, **Hospitals/Childcare** also yield very high food safety standards, and this is completely as one would expect. In hospitals, many patients have **weakened immune systems** and/or are **older**, and the nature of hospitals means they are major sources of infection due to sick patients. Safe, nutritious food is a cruical step in the recovery process for patients, whereas contaminated food has a much higher chance of leading to food poisoning in hospitals than usual, due to the high rate of immunocompromisation, and food poisoning also has a much higher chance of causing **life-threatening complications** in sick patients than in healthy individuals. Therefore, Hygiene is vitally important in hospitals. Hospitals are also naturally kept extremely clean, and so are their kitchens, as part of the safe environment. And so, Management of food safety is paramount, as part of patient protection. Childcare settings also follow the same idea, where **young children have underdeveloped immune systems** so need to be protected extra carefully from food poisoning or the complications could be very serious.
+Likewise, **Hospitals/Childcare** also yield very high food safety standards, as expecteds. In hospitals, many patients have **weakened immune systems** and/or are **older**, and the nature of hospitals means they are major sources of infection due to sick patients. Safe, nutritious food is a cruical step in the recovery process for patients, whereas contaminated food has a much higher chance of leading to food poisoning in hospitals than usual, due to the high rate of immunocompromisation, and food poisoning also has a much higher chance of causing **life-threatening complications** in already sick patients than in healthy individuals. Therefore, Hygiene is vitally important in hospitals. Hospitals are also naturally kept extremely clean, and so are their kitchens, as part of the safe environment. And so, Management of food safety is paramount as part of patient protection. Childcare settings also follow the same idea, where **young children have underdeveloped immune systems** so need to be protected extra carefully from food poisoning or the complications could be very serious.
 
-Slightly differently, **Farmers** score very well in terms of food hygiene, not because they directly involve high-risk consumers, but probably because there are **less food safety procedures** to follow. As farms, by nature, involve live animals and are generally outdoors, a high level of Hygiene and Cleanliness cannot be achieved like in a typical kitchen, so some degree of leniency is to be expected. Decent Management is expected, but due to the relatively **basic** food safety requirements for Farmers, it is somewhat easier for Farmers to score highly compared to other business types that provide food directly to consumers.
+Slightly differently, **Farmers** score very well in terms of food hygiene, not because they directly involve high-risk consumers, but probably because there are **less food safety procedures** to follow. As farms, by nature, involve live animals and are generally outdoors, a literal high level of Hygiene and Cleanliness cannot be achieved like in a typical kitchen, so some degree of leniency is to be expected. Decent Management is expected, but due to the relatively **basic** food safety requirements for Farmers, it is somewhat easier for Farmers to score highly compared to other business types that provide food directly to consumers.
 
 On the other hand, **Takeaways** clearly score most poorly in all aspects of the Food Hygiene Rating scheme, suggesting worse food safety standards on average compared to other establishments. This is likely because most takeaways are **small, often family-run businesses**, where the **budget is tight** and there is only a small number of often less qualified staff. Hence, commercial Hygiene and Cleanliness standards may not be reached or maintainable for many takeaways due to the **limited manpower and funds**. Certain structural repairs or safety installations may be unaffordable, impeding food safety. Likewise, due to the limited staff, Management of food safety can be difficult to maintain and unfortunately, lots of takeaways fail in this aspect. In rare cases, but more often than in other business types, takeaway staff are simply unaware about proper **commercial food safety** measures and manage the takeaway kitchen like at home, where food safety can be ignored slightly more, despite the fact that a commercial kitchen needs to comply with food safety laws for public health and safety. The worst cases are staff that completely neglect food safety, again most common in takeaways. Furthermore, a shocking number of takeaways are simply for **money laundering** purposes, where food safety is virtually ignored. The many combined reasons provide a general idea regarding why takeaways have lower average food safety standards.
 
@@ -269,7 +270,7 @@ Next, the average Hygiene scores each year are as follows, to two decimal places
 The following graph illustrates the data.
 <img src="report_images/hygiene_by_inspection_year.png">
 
-From 2010 to 2021, Hygiene standards have seen a noticeable steady improvement, from an average 2.96 points in 2010 to 2.25 points by 2021, 0.71 points lower. But again, hygiene standards decrease signficantly for businesses inspected in 2022 and furthermore in 2023, with a 3.57 points average in 2023, 1.32 points higher than in 2021.
+From 2010 to 2021, Hygiene standards have seen a noticeable steady improvement, from an average of 2.96 points in 2010 to 2.25 points by 2021, 0.71 points lower. But again, hygiene standards decrease significantly for businesses inspected in 2022 and furthermore in 2023, with a 3.57 points average in 2023, 1.32 points higher than in 2021.
 
 Next, the average Cleanliness scores each year are as follows, to two decimal places:
 
@@ -313,11 +314,11 @@ Finally, average Management scores each year are as follows, to two decimal plac
 The following graph illustrates the data:
 <img src="report_images/management_by_inspection_year.png">
 
-Between 2010 and 2021, Management standards have noticeably improved steadily, levelling off by around 2016. This corresponds to a 0.85 points decrease between 2010 (4.00 points) and 2021 (3.15 points). But unsurprisngly, standards decrease again in 2022, and even more in 2023, with an average of 4.52 points in Management in 2023, 1.37 points higher than in 2021.
+Between 2010 and 2021, Management standards have noticeably improved steadily, levelling off by around 2016. This corresponds to a 0.85 points decrease between 2010 (4.00 points) and 2021 (3.15 points). But unsurprisingly, standards decrease again in 2022, and even more in 2023, with an average of 4.52 points in Management in 2023, 1.37 points higher than in 2021.
 
 Firstly, it is important to know that general food safety standards have probably not simply decreased since 2022 solely based on the data. There is a much more realistic explanation for the seemingly decreased standards since 2022.
 
-Food businesses are not inspected at fixed intervals, meaning different types of establishments are inspected at different frequencies. This means **higher risk businesses**, such as those which specialise in meat, are inspected much **more frequently** than lower risk businesses where the risk to public health is much lower. The highest risk businesses are inspected every **6 months** whereas low risk businesses may go years without being inspected. Restaurants, takeaways and retailers make up most of the businesses and are generally viewed as medium risk, often inspected yearly. Businesses with **poor past food safety** may also be marked as high risk and inspected more often. Since the data operates on the last inspection of businesses, logically, many of the more recent inspections are for higher risk businesses whereas a few very low risk businesses have not been inspected since 2010. And higher risk businesses usually score more poorly on average due to either **more complex/stringent** food safety requirements or the fact that businesses with a poor food safety record are on average more likely to score worse again. Overall, the most recent inspections consist of many high risk businesses, leaving mostly low risk businesses last inspected before 2022.
+Food businesses are not inspected at fixed intervals, meaning different types of establishments are inspected at different frequencies. This means **higher risk businesses**, such as those which specialise in meat, are inspected much **more frequently** than lower risk businesses where the risk to public health is much lower. The highest risk businesses are inspected every **6 months** whereas low risk businesses may go years without being inspected. Restaurants, takeaways and retailers make up most of the businesses and are generally viewed as medium risk, often inspected yearly. Businesses with **poor past food safety** may also be marked as high risk and inspected more often. Since the data operates on the last inspection of businesses, logically, many of the more recent inspections are for higher risk businesses whereas a few very low risk businesses have not been inspected since 2010. And higher risk businesses usually score more poorly on average due to either **more complex/stringent** food safety requirements or the fact that businesses with a poor food safety record are on average more likely to score worse again. Overall, the most recent inspections consist of many high risk businesses, leaving a relatively small number of mostly low risk businesses last inspected before 2022.
 
 The world was faced with the **COVID-19** pandemic in 2020/2021. Naturally, once food businesses were able to open again after lockdown, there was extreme emphasis on food safety to protect consumers from the virus. General **food safety awareness** increased. Hygienic food handling, extreme cleanliness and stringent management were all required as part of reopening during the pandemic, so naturally, food safety standards increased. But this was likely counteracted with increased expectations during inspections given the context. Thus, Hygiene, Cleanliness and Management were all slightly better in 2020, and especially 2021, than in 2019.
 
@@ -407,13 +408,13 @@ Based on all the data, one can deduce that food safety levels are slightly highe
 
 During warmer months/summer, food is at higher risk of being too warm causing **bacteria** to grow and multiply more rapidly. This results in a higher risk of **food poisoning** which of course is very dangerous. Businesses must take this aspect of food safety extra seriously in summer, due to improper storage of perishable food being particularly dangerous, and so, on average, businesses score lower in terms of Hygiene during warmer months.
 
-Cleanliness variations by season are more difficult to explain, since pests are active year-round but different months involve different pests. A possible reason for lower Cleanliness/Management in summer, especially August, is that staff take time off to go on **holidays** and simply take a break. If this is not done correctly, the kitchen cleanliness may decrease during this time provided nobody continues work to maintain good cleanliness standards, and a gap in management checks may also occur at around this time. The slightly higher levels of kitchen neglect during the summer may explain why businesses score slightly worse when inspected during this season, especially in August.
+Cleanliness variations by season are more difficult to explain, since pests are active year-round but different months involve different pests. A possible reason for lower Cleanliness/Management in summer, especially August, is that staff take time off to go on **holidays** and simply take a break. If this is not done correctly, the kitchen cleanliness may decrease during this time provided nobody continues work to maintain good cleanliness standards, and a gap in management checks may also occur during this time. The slightly higher levels of kitchen neglect during the summer may explain why on average, businesses score slightly worse when inspected during this season, especially in August.
 
 ### Deprivation
 
-Wealth in the UK is not evenly distributed, with both very affluent and very deprived areas scattered nationwide, and the entire spectrum of affluence/deprivation levels in between. But of course, establishments exist everywhere, in rich and poor areas. A sample of affluent, average and deprived areas have been selected for analysis to determine any effects of deprivation on food safety standards.
+Wealth in the UK is not evenly distributed, with both very **affluent** and very **deprived** areas scattered nationwide, and the entire spectrum of affluence/deprivation levels in between. But of course, establishments exist everywhere, in rich and poor areas. Samples of affluent, average and deprived areas have been selected for analysis to determine any effects of deprivation on food safety standards.
 
-For each category, 8 local authorities have been carefully chosen, with 6 in England, 1 in Northern Ireland and 1 in Wales.
+For each category, 8 local authorities have been carefully chosen after some research, with 6 in England, 1 in Northern Ireland and 1 in Wales.
 The selected local authorities are as follows:
 
 Deprived
@@ -448,17 +449,17 @@ Affluent
 
 And so, the mean Food Hygiene Ratings by deprivation level have been calculated, with the results to two decimal places as follows:
 
-Deprived: 4.46
+**Deprived: 4.46**
 
 Middle Class: 4.74
 
 Affluent: 4.73
 
-The sample of deprived areas have significantly lower average Food Hygiene Ratings than the middle class and affluent areas. The sample of middle class areas score 0.01 points higher on average than the affluent areas, but this is negligible of course, and suggests that generally, food safety plateaus to a very high standard for areas that are not deprived. Nonetheless, the average rating in deprived areas is not alarmingly low and most businesses still achieve high scores despite possible disadvantages.
+The sample of **deprived** areas have significantly lower average Food Hygiene Ratings than the middle class and affluent areas. The sample of middle class areas score 0.01 points higher on average than the affluent areas, but this is negligible of course, and suggests that generally, food safety plateaus to a very high standard for areas that are not particularly deprived. Nonetheless, the average rating in deprived areas is not alarmingly low and most businesses still achieve high scores despite possible disadvantages.
 
 Additionally, the mean Hygiene scores by deprivation level have also been computed. The results are as follows, to two decimal places:
 
-Deprived: 3.17
+**Deprived: 3.17**
 
 Middle Class: 2.67
 
@@ -468,7 +469,7 @@ Unsurprisingly, the deprived areas have slightly lower Hygiene standards on aver
 
 Furthermore, the average Cleanliness scores by deprivation level are as follows, to two decimal places:
 
-Deprived: 4.45
+**Deprived: 4.45**
 
 Middle Class: 3.54
 
@@ -478,13 +479,13 @@ This time, the deprived areas have significantly lower Cleanliness standards tha
 
 Finally, the average Management scores by deprivation level are as follows, to two decimal places:
 
-Deprived: 4.62
+**Deprived: 4.62**
 
 Middle Class: 3.65
 
-Affluent: 3.34
+**Affluent: 3.34**
 
-There is a huge disparity in average Management standards between the deprived and affluent areas, alongside a noticeable difference between middle class and affluent areas in terms of management. A huge 1.28 points separates the deprived and affluent areas in terms of management scores.
+There is a huge disparity in average Management standards between the deprived and affluent areas, alongside a noticeable difference between middle class and affluent areas in terms of management. A huge 1.28 points separates the deprived and affluent areas in terms of Management scores.
 
 Further insights can be discovered by considering the rating counts for each deprivation level, including the pass/failure rate. The number of businesses achieving each rating for each sample are as follows:
 
@@ -512,28 +513,140 @@ Affluent:
 - 4: 1464 (12.33%)
 - 5: 9658 (81.34%)
 
-From the statistics, clearly, a lot more businesses score poorly in the deprived areas compared to the middle class and affluent ones.
+Clearly, a lot more businesses score poorly in the **deprived** areas compared to the middle class and affluent ones.
 
 Additionally, the pass rates by deprivation level are as follows:
 
-Deprived: 94.78%
+**Deprived: 94.78%**
 
 Middle Class: 98.39%
 
 Affluent: 98.43%
 
-This reveals that businesses in the deprived areas are over 3 times more likely to fail than in the other areas, solidifying the idea that deprived areas indeed have greater food safety issues than other areas.
+This reveals that businesses in the deprived areas are **over 3 times** more likely to fail than in the other areas, solidifying the idea that deprived areas indeed have greater food safety issues than other areas.
 
 Unfortuanately, deprived areas in general have lower health and safety standards, hence there are various reasons for the lower food hygiene scores in deprived areas.
 
-Firstly, businesses in deprived areas are much more likely to suffer from finanical issues and very tight budgets. The limited funds may make hygiene improvements, structural repairs, pest control and safe food management unaffordable, obviously leading to lower food safety standards since attaining and maintaining excellent food safety requires investment in safety measures, something many businesses aspire to achieve but simply cannot afford it due to other aspects of the business needing the money.
+Firstly, businesses in deprived areas are much more likely to suffer from financial issues and **very tight budgets**. The limited funds may make hygiene improvements, structural repairs, pest control and safe food management **unaffordable**, obviously leading to lower food safety standards since attaining and maintaining excellent food safety requires investment in safety measures, something many businesses aspire to achieve but simply cannot afford it due to other aspects of the business needing the money.
 
-Due to education deprivation, staff in deprived areas are more likely to be underqualified and may be unaware or neglective of proper food handling, cleanliness and management standards, contributing to low ratings.
+Due to **education deprivation**, staff in deprived areas are more likely to be **underqualified** and may be unaware or neglective of proper food handling, cleanliness and management standards, contributing to lower ratings.
 
-Another possible reason for lower food safety standards in deprived areas is the desperation for money of the local residents. Employment deprivation is a major problem, and so, people in deprived areas may start their own food businesses, especially takeaways, as an income stream. Many of these people may have limited understanding of running a food business and are more likely to neglect adequate food safety as a result, instead focusing on serving customers for the money whilst cutting corners to save money.
+Another possible reason for lower food safety standards in deprived areas is the **desperation for money** of the local residents. **Employment deprivation** is a major problem, and so, people in deprived areas may start their own food businesses, especially takeaways, as an income stream. Many of these people may have **limited understanding of running a food business** and are more likely to neglect adequate food safety as a result, instead focusing on serving customers for the money whilst cutting corners to save money.
 
-Crime is also more common in deprived areas, and this can include damage to businesses such as robbery. A robbery may lead to a loss of funds, subsequently causing possible food safety issues as already discussed. If the food safety documentation or records are stolen, this could be catastrophic since a lack of paperwork virtually guarantees failure. Many food establishments are actually for money laundering, so these ingenuine businesses are very likely to neglect food safety. Since crime deprivation corresponds to more money laundering businesses, this reduces average food safety scores.
+**Crime** is also more common in deprived areas, and this can include damage to businesses such as **robbery**. A robbery may lead to a loss of funds, subsequently causing possible food safety issues as already discussed. If the food safety documentation or records are stolen, this could be catastrophic since a lack of paperwork virtually guarantees failure. Many food establishments are actually for **money laundering** purposes, so these ingenuine businesses are very likely to neglect food safety. Since crime deprivation corresponds to more money laundering businesses, this reduces average food safety scores.
 
-Finally, deprived areas often have poorer quality buildings. As seen, establishments in deprived areas are more likely to have lower cleanliness/structural standards. From cramped kitchens to ventilation issues to damaged floors, walls and ceilings, all the way to mould and pests, these issues will devastate cleanliness and result in low cleanliness scores and thus, lower overall scores. And naturally, these problems are more likely to occur in deprived areas due to the poor structural quality of buildings.
+Finally, deprived areas often have **poorer quality buildings**. As seen, establishments in deprived areas are more likely to have lower cleanliness/structural standards. From **cramped** kitchens to **ventilation** issues to **damaged floors, walls and ceilings**, all the way to **mould** and **pests**, these issues will devastate cleanliness and result in low cleanliness scores and thus, lower overall scores. And naturally, these problems are more likely to occur in deprived areas due to the poor structural quality of buildings.
 
-Despite the fact that deprivation is linked to worse food safety, Northern Ireland as a whole is a somewhat deprived major region of the UK, considered by many as the most deprived, but despite this, from a previous section, NI was shown to have the highest average ratings compared to England and Wales. It is unclear regarding why this is the case, but there must be an underlying deeper reason.
+Despite the fact that deprivation is linked to worse food safety, **Northern Ireland** as a whole is a somewhat **deprived** major region of the UK, considered by many as the most deprived, but despite this, from a previous section, NI was shown to have the **highest average ratings** compared to England and Wales. It is unclear regarding why this is the case, but there must be an underlying deeper reason.
+
+### Race/Ethnicity
+
+The UK is a somewhat **multicultural** society, and in terms of food, this obviously promotes various different cuisines. There are people of many different races/ethnicities living in the UK today, and so, food establishments are naturally owned by people from different ethnic backgrounds.
+
+**London**, the capital of the UK, is particularly diverse and often dubbed as the most diverse city in the world in terms of ethnicity, where a huge proportion (nearly half) of the city's population is non-white. Therefore, the effects of Race/Ethnicity on food safety standards will be investigated in terms of **London boroughs**.
+
+Unfortunately, it is not viable nor practical to try and assume the race or ethnicity of the owners of establishments, so instead, a sample of London boroughs where a large proportion of the population is of the following ethnicities will be selected instead.
+
+White
+- Havering
+- Bromley
+- Bexley
+- Richmond-Upon-Thames
+
+Black
+- Lewisham
+- Southwark
+- Lambeth
+- Hackney
+
+Asian
+- Redbridge
+- Tower Hamlets
+- Newham
+- Harrow
+
+Note that for the selected Black/Asian boroughs, there is still a large proportion of people of White ethnicity living in these areas, but significantly less than the selected mainly White boroughs. This is a limitation of this investigation but the larger proportions of Black/Asian people may still show possible variations in food safety by race/ethnicity.
+
+For the rest of this analysis, refer to Race/Ethnicity as just *Ethnicity* for brevity.
+
+Firstly, the mean Food Hygiene Ratings by ethnicity have been determined. These values are, to two decimal places:
+
+**White: 4.52**
+
+Black: 4.38
+
+Asian: 4.39
+
+This shows that businesses in the mostly **White** areas have significantly higher average Food Hygiene Ratings than those in other areas, with businesses in the sample of areas with large Black populations scoring the lowest on average, a mere 0.01 points less than the areas with large Asian populations, and 0.14 points less than the mainly White boroughs. This suggests there is indeed a link between ethnicity and food safety standards.
+
+Next, the mean Hygiene scores by ethnicity have been calculated. These scores are as follows, to two decimal places:
+
+**White: 3.50**
+
+**Black: 4.40**
+
+Asian: 3.91
+
+Here, a clear difference is evident in terms of average Hygiene scores for the three main ethnic groups. Again, the mainly White boroughs score best on average in terms of Hygiene, the mainly Asian boroughs score 0.41 points higher, and the boroughs with large Black populations score a significant 0.90 points higher.
+
+Additionally, the mean Cleanliness scores by ethnic group have been computed to two decimal places as follows:
+
+**White: 4.41**
+
+**Black: 5.18**
+
+Asian: 4.84
+
+Once again, the mostly White areas yield the best average Cleanliness standards and the areas with large Black populations have the lowest standards, an overall difference of 0.77 points.
+
+Finally, the mean Management scores by ethnic group are as follows, to two decimal places:
+
+**White: 4.63**
+
+Black: 5.38
+
+Asian: 5.38
+
+Unsurprisingly, the White areas have the best average Management scores, with both Black and Asian areas scoring 0.75 points higher on average, indicating a disparity in Management standards.
+
+Further insights may be found through the rating counts by ethnicity. The number of businesses achieving each Food Hygiene Rating by ethnic group are as follows:
+
+White
+- 0: 8 (0.12%)
+- 1: 113 (1.76%)
+- 2: 98 (1.53%)
+- 3: 542 (8.45%)
+- 4: 1195 (18.63%)
+- 5: 4460 (69.51%)
+
+Black
+- 0: 10 (0.1%)
+- 1: 167 (1.63%)
+- 2: 286 (2.79%)
+- 3: 1240 (12.09%)
+- 4: 2350 (22.92%)
+- 5: 6202 (60.48%)
+
+Asian
+- 0: 31 (0.37%)
+- 1: 256 (3.04%)
+- 2: 212 (2.51%)
+- 3: 855 (10.14%)
+- 4: 1657 (19.65%)
+- 5: 5422 (64.3%)
+
+Evidently, the pass rate is higher in mainly White boroughs and again, better Food Hygiene Ratings are achieved in these areas compared to the Black and Asian counterparts.
+
+The pass rates by ethnic group are as follows:
+
+White: 96.59%
+
+Black: 95.49%
+
+**Asian: 94.09%**
+
+This demonstrates that businesses in areas with large Asian populations are almost twice as likely to fail than in mainly White areas, reiterating the variations in food safety standards by ethnic group, which indeed has reasonable explanations.
+
+Firstly, the vast majority of people of Black and Asian ethnic groups in London are **foreign-born migrants**. For the Black ethnic group, most migrants originate from Africa and the Caribbean and for the Asian ethnic group, most migrants originate from India, Pakistan, Bangladesh and China. Generally, these origin countries are significantly **less developed than the UK**, many of which are considered LEDCs. Consequently, general hygiene and cleanliness of these countries is of a lower standard compared to in the UK, and hence, **food safety standards are lower**. Since many migrants from other countries are used to the lower standards, many foreign-owned establishments follow the same lower food safety standards acceptable in these less developed countries, but not in the UK, where public health and safety is taken extremely seriously. Some foreign-owned businesses may even follow hygiene/cleanliness practices from their **own culture** which may break UK food safety laws despite being somewhat safe in most cases. And so, when foreign-owned establishments are inspected, **what seems acceptable to the staff is unacceptable in the law**, and so, lower average ratings result.
+
+As already explained, lower average hygiene and cleanliness standards in foreign-owned establishments can be attributed to the lower standards in origin countries that migrants are accustomed to. However, lower management scores are likely due to **language barriers**, since many migrants have **limited or no English**, which is required when communicating with inspectors, leading to the staff **unable to properly explain their food safety procedures** hence leading to a poor management score even if the safety procedures are good. Additionally, language barriers between staff may cause difficulties in food management, since documents and records may end up in different languages not everyone can understand. Language barriers are a common problem in multicultural societies and they indeed likely have a negative impact on Food Hygiene Ratings.
