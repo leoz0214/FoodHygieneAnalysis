@@ -10,7 +10,7 @@ Due to these differences, a thorough analysis of factors and their links with fo
 - **Business Type** (Restaurants, Takeaways, Schools etc.)
 - **Inspection Date** (2010 - present, January - December)
 - **Deprivation** (Affluent/Average/Deprived)
-- **Race/Ethnicity** (White/Black/Asian) [note - this goes by London boroughs with large proportions of the population of certain races/ethncities, since the race/ethncity of business owners cannot easily be determined/assumed]
+- **Race/Ethnicity** (White/Black/Asian) [note - this goes by London boroughs with large proportions of the population of certain races/ethncities, since the race/ethncity of business owners cannot easily be determined/assumed.]
 
 Each factor will now be analysed in detail and key findings will be stated.
 
